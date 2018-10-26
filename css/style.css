@@ -1,0 +1,282 @@
+﻿html,body{
+  width: 100%;
+  margin: 0%;
+}
+.sansou,p,h2{
+  font-family: serif;
+}
+.yubi {
+  cursor : pointer;
+}
+@media screen and (min-width:768px){
+.wrapper{
+  width:100%;
+}
+header{
+  background: url(../images/main_image.jpg)no-repeat;
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+}
+.menu_pc{
+  float: left;
+  background-color: #FFFFFF;
+  padding-bottom: 5%;
+}
+.menu_pc img{
+  width: 50%;
+  margin: 50% 0% 30% 25%;
+}
+.menu_pc ul{
+  	width:60%;
+	padding:0;
+	margin:0 auto 3em;
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+}
+
+.menu_pc li{
+  writing-mode: vertical-rl;
+  width:1em;
+}
+.menu_pc a{
+  color: #000000;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: bold;
+}
+.menu_sp{
+  display: none;
+}
+
+.fire{
+  background: url(../images/fire.jpg)no-repeat;
+  background-size: cover;
+  padding: 8%;
+  overflow: hidden;
+}
+.fire h2{
+  writing-mode: tb-rl; /* IE用 */
+	writing-mode: vertical-rl; /* Chrome、Firefox用 */
+	white-space: nowrap;
+	line-height: 1.5; /* firefox対策 */
+	text-orientation: upright;
+  color: #FFFFFF;
+  float: right;
+  font-size: 3vw;
+  margin-left: 15%;
+}
+.fire p{
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.mt{
+  background: url(../images/mt.jpg)no-repeat;
+  background-size: cover;
+  padding: 15% 0% 5% 40%;
+}
+.mt h2{
+  color: #FFFFFF;
+  font-size: 3vw;
+}
+.mt p{
+  color: #FFFFFF;
+  width: 80%;
+}
+.room{
+  background: url(../images/room.jpg)no-repeat;
+  background-size: cover;
+  padding-left: 50%;
+}
+.sheet{
+  background-color: #000000;
+  opacity: 0.8;
+  padding: 20%;
+}
+.room h2{
+  color: #FFFFFF;
+  font-size: 3vw;
+}
+.room .food{
+  font-size: 1vw;
+  margin: 0%;
+}
+.room .tax{
+  font-size: 2vw;
+  margin: 0%;
+}
+.room p{
+  color: #FFFFFF;
+}
+.yamanonaka{
+  background: url(../images/cafe.jpg)no-repeat;
+  background-size: cover;
+  padding-right: 50%;
+}
+.filter{
+  background-color: #000000;
+  opacity: 0.8;
+  padding: 20%;
+}
+.yamanonaka h2{
+  color: #FFFFFF;
+  font-size:3vw;
+  margin: 0% 0% 1% 0%;
+}
+.yamanonaka .mountain{
+ 	font-size: 2vw;
+    margin: 0 0 0.5em;
+}
+.yamanonaka p{
+  color: #FFFFFF;
+  margin: 0%;
+}
+.running{
+  background: url(../images/running.jpg)no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-right: 50%;
+}
+.fes{
+  background-color: #FFFFFF;
+  padding: 15% 10% 20%;
+}
+.fes h2{
+  font-size: 3vw;
+}
+.fes p{
+  font-weight: bold;
+}
+.pg{
+  background: url(../images/pg.jpg)no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 10% 5% 10% 5%;
+}
+
+.pg_text{
+	width:45%;
+	margin-left:auto;
+}
+
+.pg_text h2{
+  color: #FFFFFF;
+  font-size: 3vw;
+}
+.pg_text .sky{
+  font-size: 2vw;
+}
+.pg_text .okigalu{
+}
+.pg_text .call{
+  font-size: 2vw;
+}
+.pg_text p{
+  color: #FFFFFF;
+}
+
+.camp{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.camp_text{
+  width:30%;
+  padding:0 8%;
+}
+.camp_text h2{
+  font-size: 3vw;
+  margin: 1%;
+}
+.camp p{
+  font-weight: bold;
+  margin: 1%;
+}
+
+.camp_images{
+	width:55%;
+	line-height:0;
+}
+
+.tent img{
+	width:100%;
+}
+
+.rise img{
+	width:100%;
+}
+
+.youtube{
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+}
+.youtube iframe{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+h2#train{
+  max-width: 100%;
+  text-align: center;
+  font-size: 3vw;
+}
+.access{
+  background: url(../images/access.jpg)no-repeat;
+  background-size: 80%;
+  color: #000000;
+  padding: 15%;
+  margin-left: 15%;
+}
+.map{
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+}
+.map iframe{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+footer{
+  background: url(../images/footer_image.jpg)no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 1%;
+}
+footer h2{
+  color: #FFFFFF;
+  font-size: 3vw;
+  margin: 5% 0% 3% 0%;
+}
+footer p{
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+}
+.tasiro{
+  width: 8%;
+  padding-top: 1%;
+}
+.number{
+  margin: 1% 0% 1% 0%;
+}
+.mail{
+  margin: 1% 0% 5% 0%;
+}
+.sansou{
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  opacity: 0.8;
+  z-index: 1;
+  padding-bottom: 1%;
+}
+
+}

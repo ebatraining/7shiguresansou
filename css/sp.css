@@ -1,0 +1,257 @@
+@media screen and (max-width:767px){
+.wrapper{
+  width:100%;
+}
+header{
+  background: url(../images/main_image.jpg)no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding:5vh 0 40vh;
+}
+.menu_pc{
+  display: none;
+}
+.menu_sp{
+ 
+}
+
+.logo{
+	text-align: center;
+}
+
+.menu_sp .logo img{
+  width: 30%;
+}
+.menu_sp ul{
+  background-color: #0080FF;
+  padding-top: 10%;
+  padding-bottom: 100%;
+}
+.menu_sp li{
+  margin: 20%;
+}
+.menu_sp a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.fire{
+  background: url(../images/fire.jpg)no-repeat 80% bottom;
+  background-size: cover;
+  padding:15% 10%;
+}
+.fire h2{
+	writing-mode: tb-rl; /* IE用 */
+	writing-mode: vertical-rl; /* Chrome、Firefox用 */
+	white-space: nowrap;
+	line-height: 1.5; /* firefox対策 */
+	text-orientation: upright;
+	color: #FFFFFF;
+	width: 25%;
+    margin: 0 auto;
+}
+.fire p{
+  color: #FFFFFF;
+  margin-top:3em;
+}
+
+.mt{
+  background: url(../images/mt.jpg)no-repeat;
+  background-size: cover;
+  padding:15% 10%;
+  
+}
+.mt h2{
+  color: #FFFFFF;
+}
+.mt p{
+  color: #FFFFFF;
+}
+.room{
+  background: url(../images/room.jpg)no-repeat;
+  background-size: cover;
+  padding-left:40%;
+}
+.sheet{
+  background-color: #000000;
+  opacity: 0.8;
+  padding:10%;
+}
+.room h2{
+  color: #FFFFFF;
+}
+.room .food{
+  
+  margin: 0%;
+}
+.room .tax{
+  font-size: 3vw;
+  margin: 0%;
+}
+.room p{
+  color: #FFFFFF;
+}
+.yamanonaka{
+  background: url(../images/cafe.jpg)no-repeat;
+  background-size: cover;
+  padding-right:40%;
+}
+.filter{
+  background-color: #000000;
+  opacity: 0.8;
+      padding: 25% 10%;
+}
+.yamanonaka h2{
+  color: #FFFFFF;
+  margin: 0% 0% 1% 0%;
+}
+.yamanonaka .mountain{
+  margin: 0% 0% 1% 0%;
+}
+.yamanonaka p{
+  color: #FFFFFF;
+  margin: 0%;
+}
+.running{
+  background: url(../images/running.jpg)no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  padding-right:40%;
+}
+.fes{
+  background-color: #FFFFFF;
+  padding: 10% 10%;
+}
+.fes h2{
+}
+.fes p{
+  
+  font-weight: bold;
+}
+
+.pg{
+  background: url(../images/pg.jpg)no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 10% 5% 10% 5%;
+}
+
+.pg_text{
+	width:60%;
+	margin-left:auto;
+}
+
+.pg_text h2{
+  color: #FFFFFF;
+}
+.pg_text .sky{
+}
+.pg_text .okigalu{
+}
+.pg_text .call{
+}
+.pg_text p{
+  color: #FFFFFF;
+}
+
+.camp{
+	margin:2em 0;
+}
+
+.camp_text{
+  padding:5%;
+}
+.camp_text h2{
+  margin: 1%;
+}
+.camp p{
+  font-weight: bold;
+  margin: 1%;
+}
+
+.camp_images{
+	line-height:0;
+}
+
+.tent img{
+	width:100%;
+}
+
+.rise img{
+	width:100%;
+}
+
+.youtube{
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+}
+.youtube iframe{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+h2#train{
+  max-width: 100%;
+  text-align: center;
+  font-size: 4vw;
+}
+.access{
+  background: url(../images/access.jpg)no-repeat;
+  background-size: 80%;
+  padding: 15%;
+  margin-left: 15%;
+  color: #000000;
+}
+.map{
+  position: relative;
+  width: 100%;
+  padding-top: 50%;
+}
+.map iframe{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+footer{
+  background: url(../images/footer_image.jpg)no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 1%;
+}
+footer h2{
+  color: #FFFFFF;
+  font-size: 4vw;
+  margin: 8% 0% 5% 0%;
+}
+footer p{
+  color: #FFFFFF;
+  
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.tasiro{
+  width: 10%;
+  padding-top: 1%;
+}
+.number{
+  
+}
+.mail{
+  
+  padding-bottom: 5%;
+}
+.sansou{
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  opacity: 0.8;
+  z-index: 1;
+  padding-bottom: 1%;
+}
+
+}

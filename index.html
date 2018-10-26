@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<title>田代高原　七時雨山荘</title>
+<meta charset="utf-8">
+<meta neme="keywords" content="岩手県,七時雨山荘,田代高原">
+<meta name="description" contennt="七時雨山荘のページです">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/sp.css"　type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/drawer.js"></script>
+<script src="js/iscroll.js"></script>
+<script>
+$(document).ready(function() {
+  $(".drawer").drawer();
+$('.menu_sp a').on('click', function() {
+  $('.drawer').drawer('close');
+});
+});
+</script>
+<script>
+$(function(){
+  $('a[href^="#"]').click(function(){
+    var speed = 1000;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+});
+</script>
+<link rel="stylesheet" href="css/drawer.css">
+<!--[if lt IE 9]>
+<script src="../js/respond.js"></script>
+<script src="../js/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body class="drawer drawer--right">
+	<header>
+    <div class="menu_pc">
+      <img src="images/logo.png">
+      <ul>
+        <li><a href="#hotel">七時雨山荘とは</a></li>
+        <li><a href="#price">宿泊プラン</a></li>
+        <li><a href="#tea">茶居花</a></li>
+        <li><a href="#outdoor">アウトドア＆スポーツ</a></li>
+        <li><a href="#train">アクセス</a></li>
+        <li><a href="#tell">ご予約・お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div class="menu_sp">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<!-- ハンバーガーボタン -->
+		<button type="button" class="drawer-toggle drawer-hamburger">
+			<span class="sr-only">toggle navigation</span>
+			<span class="drawer-hamburger-icon"></span>
+		</button>
+		<nav class="drawer-nav">
+			<ul class="drawer-menu">
+			  <!-- ドロワーメニューの中身 -->
+			  <li><a href="#hotel">七時雨山荘とは</a></li>
+			  <li><a href="#price">宿泊プラン</a></li>
+			  <li><a href="#tea">茶居花</a></li>
+			  <li><a href="#outdoor">アウトドア＆スポーツ</a></li>
+			  <li><a href="#train">アクセス</a></li>
+			  <li><a href="#tell">ご予約・お問い合わせ</a></li>
+			</ul>
+		</nav>
+    </div>
+  </header>
+    <div class="fire">
+      <h2>足りるを知り<br>不便を楽しむ</h2>
+      <p>日本、新百名山の一角「七時雨山」の麓で、おかげさまで50年以上宿を営んでおります。携帯は圏外※一部のキャリアは入ります。また施設内wi-fiはございます。周囲7キロ民家がないコンビニは12キロ先、通常の日常生活では考えられない環境ではないでしょうか？ただし、普段、携帯画面しか見ていない中、顔を付き合わせてご飯を食べる。そんな昔は当たり前だったけれど今はなかなか出来ていないことをゆったりした空間で過ごすことが出来ます。「足りるを知り　不便を楽しむ」本当に人類が暮らしていく中で大切なことを山に来ると気付けるのではないでしょうか？</p>
+    </div>
+    <div class="mt">
+      <h2 id="hotel">七時雨山荘とは</h2>
+      <p>「七時雨山を上る人の安らげる場所を作りたい」そんな思いで50年前から宿を営んでおります。ベースとなる母屋は、リフォームなどはところどころ行なっておりますが基本は50年前のままの姿です。簡素な宿ですが目の前には七時雨山を始め、雄大な景色を思う存分楽しめます。ペットを連れておもいっきり芝生を走り回る、登山をする、楽しみ方は無限大です。何もない場所だからこそあなた自身の色に染めてみてください。</p>
+    </div>
+    <div class="room">
+      <div class="sheet">
+      <h2 id="price">宿泊プラン</h2><p class="food">一律一泊二食付き</p><p class="tax">7,560円(税込み)</p>
+  		<p>「当宿のプランはシンプルです。お部屋は和室となります。お食事は季節の山菜、川魚などが中心です。ご希望頂ければ※要事前連絡バーベキューハウスにてバーベキューを楽しむことも出来ます。</p>
+      </div>
+    </div>
+    <div class="yamanonaka">
+      <div class="filter">
+      <h2 id="tea">茶居花</h2><p class="mountain">山の中のカフェ</p>
+      <p>七時雨山荘には、茶居花というカフェもあります。「宿泊する時間はないけど景色は楽しみたい」そんな方はぜひこちらでゆったり流れる時間をお楽しみ下さい。気温によっては薪ストーブを使用して暖を取ることが出来ます。</p>
+      </div>
+    </div>
+    <div class="running">
+    <div class="fes">
+    <h2 id="outdoor">トレイルランニング</h2><p>2012年から毎年6月中旬に当宿をメイン会場として「七時雨マウントトレイルフェス」というトレインランニングの大会を開催していただいております。毎年県内・県外問わず、たくさんの選手の方々が参加されています。大会は朝7時から受付ですのでトレインランニング参加費+宿泊プランもご用意しております。「ちょっと興味あるかも」という人はお気軽にお問い合わせ下さい。</p>
+    </div>
+    </div>
+    <div class="pg">
+		 <div class="pg_text">
+			 <h2>パラグライダー</h2><p class="sky">大空から自然を楽しむ</p>
+			 <p>当宿では、パラグライダーも楽しむことが出来ます。※要予約インストラクターとまずはタンデムフライトから初めて初心者でも大空からの景色を楽しめます。</p>
+			 <p class="okigalu">お気軽に下記番号までお問い合わせ下さい</p>
+			 <p class="call">TEL 090-4044-0746</p>
+		 </div>
+    </div>
+    <div class="camp">
+		<div class="camp_text">
+			<h2>キャンプ</h2>
+			<p>当宿では、キャンププランもございます。キャンプも楽しめ、お洒落なカフェ、温泉にも入れます。まずはお気軽にお問い合わせ下さい。</p>
+		</div>
+		<div class="camp_images">
+			<div class="tent">
+				<img src="./images/camp01.jpg">
+			</div>
+			<div class="rise">
+				<img src="./images/camp02.jpg">
+			</div>
+		</div>
+	</div>
+    <div class="youtube">
+      <iframe src="https://www.youtube.com/embed/xOvZDIhIMp4"></iframe>
+    </div>
+    <h2 id="train">アクセス</h2>
+    <div class="access">
+    </div>
+    <div class="map">
+  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.5909957563945!2d141.1271863148023!3d40.08453448370076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8524114a6a5b2d%3A0x6d68d3d625eabb24!2z44CSMDI4LTc1MTUg5bKp5omL55yM5YWr5bmh5bmz5biC5Y-k5bGL5pW377yZ77yW!5e0!3m2!1sja!2sjp!4v1523935378802"></iframe>
+    </div>
+</body>
+<footer>
+  <h2 id="tell">ご予約・お問い合わせ</h2>
+  <p>ご予約・お問い合わせのお客様は、下記の電話番号かメールアドレス宛にご連絡下さい。</p>
+  <p class="number">TEL 0195-72-2103</p>
+  <p class="mail">E-MAIL 7shiguresansou@gmail.com</p>
+  <div class="sansou">
+  <img src="images/logo_w.png" class="tasiro">
+  <p><small>&#169;7shiguresansou</small></p>
+  </div>
+</footer>
+</html>
