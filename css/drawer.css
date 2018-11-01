@@ -129,11 +129,11 @@
 .drawer--right.drawer-open .drawer-nav,
 .drawer--right .drawer-hamburger,
 .drawer--right.drawer-open .drawer-navbar .drawer-hamburger {
-  right: 0;
+  right: -1px;
 }
 
 .drawer--right.drawer-open .drawer-hamburger {
-  right: 16.25rem;
+  right: 0px;/*16.25remから0px変更し、右側に固定*/
 }
 
 /*!------------------------------------*\
@@ -158,12 +158,12 @@
           transform: translate3d(0, 0, 0);
   border: 0;
   outline: 0;
-  background-color: #0040FF;
+  background-color: #C2847C;
 }
 
 .drawer-hamburger:hover {
   cursor: pointer;
-  background-color: #0040FF;
+  background-color: #C2847C;
 }
 
 .drawer-hamburger-icon {
@@ -179,7 +179,7 @@
   height: 2px;
   -webkit-transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
   transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-  background-color: #E6E6E6;
+  background-color: #FFFFFF;
 }
 
 .drawer-hamburger-icon:before,
@@ -211,6 +211,15 @@
 .drawer-open .drawer-hamburger-icon:after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+/*menu文字表示追加*/
+.drawer-hamburger-text{
+    width: 32px;
+    font-size: 6px;
+    margin: 13px 0 -13px 0;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
 }
 
 /*!------------------------------------*\
