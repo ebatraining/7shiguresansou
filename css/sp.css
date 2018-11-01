@@ -46,7 +46,7 @@ header{
     margin: 21% 0 21% 22%;/*20%*/
 }
 .menu_sp a{
-    color: #9A7979;
+    color: #630000;
     font-family: serif;/*書体変更*/
     text-decoration: none; 
     position:relative;
@@ -58,7 +58,7 @@ header{
     left: -30px;
     content:'';
     border-top: 1px solid;
-    color: #9A7979;
+    color: #630000;
     width: 20px;
     }
 .menu_sp .shiguresansou a{
